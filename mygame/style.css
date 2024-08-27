@@ -1,0 +1,38 @@
+body {
+	font-family: 'Roboto', sans-serif;
+	margin: 1em;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+    background-color: cadetblue;
+}
+
+h1 {
+	font-size: 72px;
+	margin: 0;
+}
+
+p {
+	font-size: 32px;
+	margin: 0;
+}
+
+#console-output {
+	border: 1px solid #ccc;
+	padding: 10px;
+	height: 32rem;
+	width: 64rem;
+	overflow-y: scroll;
+	background-color:lightblue;
+}
+
+#playGame {
+	width: 500px;
+	height: 200px;
+	border-radius: 20px;
+	font-size: 72px;
+	margin: 50px;
+}
+.p{
+    font-family: "Lucida Console", "Courier New", monospace;
+}
